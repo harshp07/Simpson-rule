@@ -68,7 +68,7 @@ program Program
         if ( calculated ) then
             open(unit = 1 , file="Output.txt")
                 write (1, *) "Integral = ", Integral
-                write (*, *) "Integral = ", Integral
+                write (*, *) "integral = ", Integral
             close(unit = 1)
         end if
 end program Program
